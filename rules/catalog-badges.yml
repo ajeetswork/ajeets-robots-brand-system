@@ -1,0 +1,5 @@
+badges:
+  seasonal:
+    requires_campaign_window: true
+  evergreen:
+    requires_campaign_window: false
