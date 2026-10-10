@@ -1,0 +1,9 @@
+name: Brand asset check
+description: Validate basic brand asset layout
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        test -d assets
+        echo "Brand asset layout present"
